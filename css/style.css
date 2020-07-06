@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "Exo", sans-serif;
+}
+
+.corner {
+  margin: 1% 0 0 8%;
+}
+
+.arrow {
+  height: 50px;
+  width: auto;
+}
+
+.navbar {
+  margin: 0.5% 0 0 6%;
+}
+
+
+
+
+li {
+  margin-right: 40px;
+
+}
+
+#active {
+  color: #4E4E50;
+}
+
+
+#tabs {
+  color: #fff;
+}
+a:hover {
+  color: #CF073F !important; /* Sorry */
+}
