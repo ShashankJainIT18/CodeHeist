@@ -1,0 +1,100 @@
+.top{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.next{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 135px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+        /* background-image: url("C:/Users/Faraaz Usmani/Desktop/Python/Coursera/spacex.jpg");
+        -webkit-background-size: cover; */
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        background-color: #000000;
+  }
+  .wrapper{
+    width: 860px;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 900px;
+    margin-top: -60px;
+    
+  }
+  .wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+  }
+  .wrapper ul li{
+    background: #1b1a1a;
+    width: 170px;
+    border: 1px solid #000000;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+  }
+  .wrapper ul li:hover{
+    background: crimson;
+  }
+  .wrapper ul ul{
+    display: none;
+  }
+  .wrapper ul li:hover > ul{
+    display: block;
+  }
+  .wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+  }
+
+  .one{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px; 
+  }
+
+  .two{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 350px
+  }
+
+  .three{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 500px; 
+  }
+
+  .four{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 700px;
+  }
+
+  .five{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 900px;
+  }
+  
