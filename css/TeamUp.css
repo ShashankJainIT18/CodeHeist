@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+.one{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 200px;
+    font-size: 36px;
+    color: #1a1a1a;
+    background-color: #000000;
+    border-radius: 0px;
+    border: #000000;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    transition: 0.25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover{
+    background-color: #c3073c;
+}
+
+.two{
+    /* position: absolute;
+    margin-left: 875px; */
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 200px;
+    font-size: 36px;
+    color: #1a1a1a;
+    background-color: #000000;
+    border-radius: 0px;
+    border: #000000;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    transition: 0.25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pic{
+    position: absolute;
+    margin-top: 400px;
+}
+
+.sg1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 175px;
+}
+.sg2{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 410px;
+}
+
+.sg3{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 750px;
+}
+.sg4{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 1050px;
+}
