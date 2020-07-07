@@ -1,0 +1,46 @@
+.middle-container {
+  margin: 5% 10%
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#FFF;
+  height: 1px;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+}
+
+.heading {
+background-color: #C3073F;
+text-align: center;
+padding: 10px 5%;
+
+}
+
+.heading  p{
+  color: #1A1A1D;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.heading:hover{
+  background-color: #950740;
+}
+
+.jumbotron{
+  background-color: #000;
+  height: 0;
+}
+
+.content{
+  background-color: #0f0f0f;
+  height:50rem;
+}

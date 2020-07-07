@@ -5,7 +5,7 @@
 
 body {
   background-color: #000;
-  font-family: "Exo", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .corner {
@@ -31,6 +31,7 @@ li {
 
 #active {
   color: #4E4E50;
+
 }
 
 
@@ -39,4 +40,24 @@ li {
 }
 a:hover {
   color: #CF073F !important; /* Sorry */
+}
+
+.navbar-text {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+}
+
+.bottom-container {
+  padding: 100px 50px 50px 0 ;
+}
+
+
+.copyright {
+  text-align: center;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+   font-family: 'Raleway', sans-serif;
 }
