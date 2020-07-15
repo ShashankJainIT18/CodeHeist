@@ -1,0 +1,54 @@
+<html>
+<head>
+<title> just try
+</title>
+
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCaqbXA6DnYexQ_qMJY_A085tq8yb-PIl0",
+    authDomain: "shanky-cc2f1.firebaseapp.com",
+    databaseURL: "https://shanky-cc2f1.firebaseio.com",
+    projectId: "shanky-cc2f1",
+    storageBucket: "shanky-cc2f1.appspot.com",
+    messagingSenderId: "55082328583",
+    appId: "1:55082328583:web:bd078d4e2148ea423e00a2",
+    measurementId: "G-FZR8HCGQSD"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+ </script>
+ </head> 
+ <body>
+ <script>
+
+   var usercollection =db.collection("HeistFormUser");
+   function writedata() {
+
+  //   var name1 = document.getElementById('a').value;
+//	var	age1 =  document.getElementById('b').value;
+
+var name1 = document.forms["Heist"]["a"].value;
+var age1 = document.forms["Heist"]["b"].value;
+console.log(name1);
+console.log(age1);
+	usercollection.add({
+		
+		name :  name1,
+		age  :  age1,
+	});
+	
+	}
+
+
+</script>
+<form id="Heist" method="post"> 
+<h1> USER DATABASE </h1>
+<input type="text" placeholder="name" name="a" id="a">
+<input type="text" placeholder="age"  name="b" id="b">
+<button type="submit" onclick="writedata()"> submit </button>      
+ </form>  
+</body>
+</html>
